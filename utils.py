@@ -24,13 +24,6 @@ def parse_args():
     eval_parser.add_argument("--checkpoint", type=str, help="Path to the model checkpoint for evaluation")
     
     return parser.parse_args()
-
-def save_experiment_results(args, best_accuracy, device):
-    with open("experiment_results.txt", "w") as f:
-        f.write(f"SUMMARY\n mode: {args.mode}\n model: {args.model}\n freeze_backbone: {args.freeze_backbone}\n\
-          epochs: {args.epochs}\n learning_rate: {args.lr}\n batch_size: {args.batch_size}\n num_workers: {args.num_workers}\n best_val_accuracy: {best_accuracy:.4f}\n\
-            device: {device}\n")
-
     
 def plot_confusion_matrix(model, data_loader, device, num_classes=16):
     model.eval()
