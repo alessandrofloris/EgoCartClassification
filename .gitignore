@@ -1,0 +1,15 @@
+# Dataset (troppo pesante per GitHub)
+egocart/
+
+# Ambiente virtuale
+egocart_env/
+
+# Checkpoint dei modelli
+*.pth
+
+# Cache Python
+__pycache__/
+*.pyc
+
+# File di sistema
+.DS_Store
