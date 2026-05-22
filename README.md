@@ -23,8 +23,8 @@ Scaricare il dataset EgoCart dal [sito ufficiale](https://iplab.dmi.unict.it/leg
 ### 1. Clonare il Repository
 
 ```bash
-git clone https://github.com/your-username/your-repository.git
-cd your-repository
+git clone https://github.com/alessandrofloris/EgoCartClassification
+cd EgoCartClassification
 ```
 
 ### 2. Creazione e attivazione dell'ambiente virtuale

@@ -6,7 +6,7 @@ from utils import parse_args
 if __name__ == '__main__':
     
     # Paths
-    dataset_root = "../egocart/"
+    dataset_root = "egocart/"
     train_path = dataset_root + "train_set/"
     train_rgb_path = train_path + "train_RGB/"
     test_path = dataset_root + "test_set/"
