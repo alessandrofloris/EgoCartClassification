@@ -37,7 +37,7 @@ source egocart_env/bin/activate
 
 Su Windows:
 ```bash
-python -m venv egocart_env
+py -3.10 -m venv egocart_env
 egocart_env\Scripts\activate.bat
 ```
 

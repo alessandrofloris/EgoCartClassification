@@ -26,8 +26,3 @@ if __name__ == '__main__':
        train(args, paths)
     elif args.mode == "eval":
         eval(args, paths)
-    elif args.mode == "explore":
-        # load train data in a dataframe 
-        # print some statistics and distributions about the dataset
-        # visualize some samples
-        None

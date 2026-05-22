@@ -22,8 +22,6 @@ def parse_args():
     eval_parser.add_argument("--batch_size", type=int, default=32, help="Batch size for evaluation")
     eval_parser.add_argument("--num_workers", type=int, default=4, help="Number of workers for data loading")
     eval_parser.add_argument("--checkpoint", type=str, help="Path to the model checkpoint for evaluation")
-
-    explore_parser = subparsers.add_parser("explore", help="Explore the dataset and visualize statistics")
     
     return parser.parse_args()
 
